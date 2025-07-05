@@ -93,16 +93,19 @@ export default function Home() {
           {/* Header */}
           <header className="flex justify-between items-center mb-20">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
-                <div className="w-6 h-6 bg-white rounded-full"></div>
+              <div className="flex items-center space-x-4">
+                <img
+                  src="./logo.png"
+                  className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded flex items-center justify-center"
+                />
               </div>
               <span className="text-2xl font-bold">Sun Design</span>
             </div>
-            <div className="bg-white text-black px-6 py-3 rounded-full text-sm font-medium">
+            <div className="bg-blue-500 text-black px-6 py-3 rounded-full text-sm font-medium">
               <a
                 href="https://sundesign.io/"
                 target="_blank"
-                className="text-purple-500 font-bold"
+                className="text-white font-bold"
               >
                 Create Design Now
               </a>
