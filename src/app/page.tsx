@@ -3,6 +3,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import { useState } from "react";
+import { FaFacebookF, FaInstagram, FaTiktok, FaZhihu } from "react-icons/fa";
 
 export default function Home() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
@@ -134,7 +135,7 @@ export default function Home() {
 
               <div className="space-y-4">
                 <a
-                  href="https://zalo.me/g/plkyoz146"
+                  href="https://zalo.me/0968083967"
                   target="_blank"
                   className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-8 rounded-xl text-lg transition-colors duration-300"
                 >
@@ -287,9 +288,13 @@ export default function Home() {
               </div>
               <span className="text-xl font-semibold">Sun Design</span>
             </div>
-            <div className="bg-white text-black px-4 py-2 rounded-full text-sm font-medium">
+            <a
+              href="https://www.facebook.com/profile.php?id=61578000097887"
+              target="_blank"
+              className="bg-white text-black px-4 py-2 rounded-full text-sm font-medium"
+            >
               by <span className="text-red-500">Sun Design</span> media
-            </div>
+            </a>
           </div>
 
           {/* Main Content */}
@@ -462,102 +467,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Why Become Partner Section */}
-      {/* <section className="px-8 py-20 bg-gradient-to-br from-blue-900 via-indigo-900 to-purple-900 text-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-16 items-start">
-            <div>
-              <h2 className="text-4xl md:text-5xl font-bold mb-12 leading-tight">
-                Why should
-                <br />
-                become
-                <br />
-                <span className="text-blue-300">Sun Design</span>
-                <br />
-                partner?
-              </h2>
-
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="bg-slate-800/60 backdrop-blur-sm rounded-2xl p-6 border border-slate-700/50 hover:border-blue-500/50 transition-all duration-300">
-                  <h3 className="text-xl font-bold mb-3">
-                    Expand
-                    <br />
-                    Your
-                    <br />
-                    Reach
-                  </h3>
-                  <p className="text-gray-300 text-sm leading-relaxed">
-                    Access a fast-growing network of TikTok sellers looking for
-                    design, fulfillment, content, and automation solutions.
-                  </p>
-                </div>
-
-                <div className="bg-slate-800/60 backdrop-blur-sm rounded-2xl p-6 border border-slate-700/50 hover:border-blue-500/50 transition-all duration-300">
-                  <h3 className="text-xl font-bold mb-3">
-                    Co-
-                    <br />
-                    Create
-                    <br />
-                    Value
-                  </h3>
-                  <p className="text-gray-300 text-sm leading-relaxed">
-                    Collaborate directly with our product team to build new
-                    features tailored to your services or community.
-                  </p>
-                </div>
-
-                <div className="bg-slate-800/60 backdrop-blur-sm rounded-2xl p-6 border border-slate-700/50 hover:border-blue-500/50 transition-all duration-300">
-                  <h3 className="text-xl font-bold mb-3">
-                    Boost
-                    <br />
-                    Your
-                    <br />
-                    Credibilit
-                    <br />y
-                  </h3>
-                  <p className="text-gray-300 text-sm leading-relaxed">
-                    Partner with an AI-powered platform that's trusted by TikTok
-                    sellers and stay ahead in e-commerce.
-                  </p>
-                </div>
-
-                <div className="bg-slate-800/60 backdrop-blur-sm rounded-2xl p-6 border border-slate-700/50 hover:border-blue-500/50 transition-all duration-300">
-                  <h3 className="text-xl font-bold mb-3">
-                    Full
-                    <br />
-                    Support
-                  </h3>
-                  <p className="text-gray-300 text-sm leading-relaxed">
-                    Enjoy onboarding guidance, marketing assets, and dedicated
-                    partner support to help you succeed.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="lg:pl-8">
-              <div className="sticky top-8">
-                <p className="text-gray-300 text-lg leading-relaxed mb-8">
-                  Ready to collaborate with Sun Design?
-                  <br />
-                  <br />
-                  Please fill out the form below — our team will connect with
-                  you 1:1 to discuss exclusive partnership opportunities
-                  tailored to your business.
-                </p>
-
-                <button className="w-full max-w-md bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 hover:from-blue-700 hover:via-purple-700 hover:to-pink-700 text-white font-semibold py-4 px-8 rounded-full transition-all duration-300 flex items-center justify-center space-x-3 group">
-                  <span className="text-lg">Join as Partner</span>
-                  <div className="w-6 h-6 bg-white/20 rounded-full flex items-center justify-center group-hover:rotate-12 transition-transform duration-300">
-                    <span className="text-sm">⭐</span>
-                  </div>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
       {/* FAQ Section */}
       <section className="px-8 py-20 bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 text-white">
         <div className="max-w-4xl mx-auto">
@@ -682,11 +591,11 @@ export default function Home() {
       <footer className="px-8 py-16 bg-gradient-to-br from-slate-900 to-slate-800 text-white">
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col items-center text-center space-y-8">
-            {/* Logo and Brand */}
+            {/* Logo & Brand */}
             <div className="flex items-center space-x-4">
               <img
                 src="./logo.png"
-                className="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center"
+                className="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl"
               />
               <div>
                 <h3 className="text-2xl font-bold">Sun Design</h3>
@@ -694,7 +603,54 @@ export default function Home() {
               </div>
             </div>
 
-            {/* CTA Button */}
+            {/* Social Links */}
+            <div className="flex items-center space-x-6">
+              <div className="flex items-center space-x-6">
+                {/* Facebook */}
+                <a
+                  href="https://www.facebook.com/profile.php?id=61578000097887"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-blue-500 transition-colors"
+                >
+                  <FaFacebookF size={24} />
+                </a>
+
+                {/* Zalo */}
+                <a
+                  href="https://zalo.me/0968083967"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-blue-400 transition-colors"
+                >
+                  <span className="flex items-center justify-center text-[30px] w-6 h-6 rounded-full hover:text-[#008FE5] transition-colors text-white font-bold" >
+                    Z
+                  </span>
+                </a>
+
+                {/* TikTok */}
+                <a
+                  href="https://www.tiktok.com/@yourtiktok"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-blue-500 transition-colors"
+                >
+                  <FaTiktok size={24} />
+                </a>
+
+                {/* Instagram */}
+                {/* <a
+                  href="https://www.instagram.com/yourinstagram"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                 className="hover:text-blue-500 transition-colors"
+                >
+                  <FaInstagram size={24} />
+                </a> */}
+              </div>
+            </div>
+
+            {/* CTA */}
             <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-8 rounded-xl transition-colors duration-300 flex items-center space-x-2">
               <a href="https://zalo.me/g/plkyoz146" target="_blank">
                 Get Started Today
