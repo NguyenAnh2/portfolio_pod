@@ -623,7 +623,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="hover:text-blue-400 transition-colors"
                 >
-                  <span className="flex items-center justify-center text-[30px] w-6 h-6 rounded-full hover:text-[#008FE5] transition-colors text-white font-bold" >
+                  <span className="flex items-center justify-center text-[30px] w-6 h-6 rounded-full hover:text-[#008FE5] transition-colors text-white font-bold">
                     Z
                   </span>
                 </a>
@@ -663,6 +663,25 @@ export default function Home() {
               <p className="text-gray-500">
                 © 2025 Sun Design. All rights reserved.
               </p>
+              <div className="mt-4 flex flex-wrap justify-center space-x-4 text-sm text-gray-500">
+                <a
+                  href="https://sundesign.io/privacy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline hover:text-gray-300"
+                >
+                  Privacy Policy
+                </a>
+                <span>|</span>
+                <a
+                  href="https://sundesign.io/terms"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline hover:text-gray-300"
+                >
+                  Terms of Service
+                </a>
+              </div>
             </div>
           </div>
         </div>
